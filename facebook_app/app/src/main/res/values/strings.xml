@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">facebook_app</string>
+
+
+    <string-array name="days">
+        <item>male</item>
+        <item>female</item>
+
+    </string-array>
+</resources>

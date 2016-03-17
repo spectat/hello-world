@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfe3ee"
+    android:weightSum="1">
+<LinearLayout
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="81dp"
+        android:src="@drawable/signup_back"
+
+        android:id="@+id/imageView2"
+
+        android:layout_weight="2.50" />
+
+    <ImageView
+
+
+
+        android:layout_width="277dp"
+        android:layout_height="82dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/signup_text" />
+
+    <ImageView
+   android:layout_width="53dp"
+        android:layout_height="81dp"
+
+        android:src="@drawable/signup_home"
+        android:id="@+id/imageView4"
+        />
+
+
+</LinearLayout>
+
+    <EditText
+        android:layout_width="311dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="#ffffff"
+        android:layout_marginBottom="29dp"
+        android:hint="First Name"
+        android:singleLine="false"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:layout_width="311dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:background="#ffffff"
+        android:layout_marginBottom="29dp"
+        android:hint="Last Name"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="311dp"
+        android:layout_height="30dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:hint="Phone"
+        android:layout_marginBottom="29dp"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+
+        android:layout_gravity="center"
+        android:layout_width="311dp"
+        android:layout_height="30dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:background="#ffffff"
+        android:hint="E-mail"
+        android:layout_marginBottom="29dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="38dp"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:text="I am"
+
+        android:id="@+id/textView3"
+        android:layout_weight="0.04" />
+
+    <Spinner
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/days"
+
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
